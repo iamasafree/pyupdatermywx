@@ -1,0 +1,64 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean this module is required for running you program. Python and
+Python 3rd-party packages include a lot of conditional or optional modules. For
+example the module 'ntpath' only exists on Windows, whereas the module
+'posixpath' only exists on Posix systems.
+
+Types if import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported from within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+           yourself tracking down the missing module. Thanks!
+
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named termios - imported by tty (top-level), dsdev_utils.terminal (optional), getpass (optional), psutil._compat (delayed, optional)
+missing module named pwd - imported by posixpath (delayed, conditional), shutil (optional), tarfile (optional), http.server (delayed, optional), webbrowser (delayed), distutils.util (delayed, conditional, optional), distutils.archive_util (optional), netrc (delayed, conditional), getpass (delayed), pathlib (delayed, conditional, optional), psutil (optional)
+missing module named org - imported by copy (optional)
+missing module named urllib.quote - imported by urllib (optional), pyupdater.utils.compat (optional)
+missing module named urllib.pathname2url - imported by urllib (conditional), PyInstaller.lib.modulegraph._compat (conditional)
+missing module named 'org.python' - imported by pickle (optional), setuptools.sandbox (conditional), xml.sax (delayed, conditional)
+missing module named 'java.lang' - imported by platform (delayed, optional), xml.sax._exceptions (conditional)
+missing module named multiprocessing.get_context - imported by multiprocessing (top-level), multiprocessing.pool (top-level), multiprocessing.managers (top-level), multiprocessing.sharedctypes (top-level)
+missing module named multiprocessing.TimeoutError - imported by multiprocessing (top-level), multiprocessing.pool (top-level)
+missing module named grp - imported by shutil (optional), tarfile (optional), distutils.archive_util (optional), pathlib (delayed)
+missing module named vms_lib - imported by platform (delayed, conditional, optional)
+missing module named java - imported by platform (delayed)
+missing module named _winreg - imported by platform (delayed, optional), appdirs (delayed, conditional), pkg_resources._vendor.appdirs (delayed, conditional), numpy.distutils.cpuinfo (delayed, conditional, optional)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), PyInstaller.loader.pyimod02_archive (delayed)
+missing module named readline - imported by cmd (delayed, conditional, optional), code (delayed, conditional, optional), pdb (delayed, optional)
+missing module named multiprocessing.BufferTooShort - imported by multiprocessing (top-level), multiprocessing.connection (top-level)
+missing module named multiprocessing.AuthenticationError - imported by multiprocessing (top-level), multiprocessing.connection (top-level)
+missing module named _posixsubprocess - imported by subprocess (conditional), multiprocessing.util (delayed)
+missing module named multiprocessing.set_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
+missing module named multiprocessing.get_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
+missing module named multiprocessing.Manager - imported by multiprocessing (optional), nose.plugins.plugintest (optional)
+missing module named multiprocessing.current_process - imported by multiprocessing (delayed), nose.plugins.plugintest (delayed)
+missing module named 'win32com.gen_py' - imported by win32com (conditional, optional), c:\program files (x86)\microsoft visual studio\shared\python37_64\lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_win32comgenpy.py (top-level)
+missing module named pyimod03_importers - imported by c:\program files (x86)\microsoft visual studio\shared\python37_64\lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py (top-level)
+missing module named StringIO - imported by six (conditional), setuptools._vendor.six (conditional), PyInstaller.lib.modulegraph._compat (conditional), PyInstaller.lib.modulegraph.zipio (conditional), urllib3.packages.six (conditional), pkg_resources._vendor.six (conditional), numpy.testing._private.utils (conditional), numpy.lib.utils (delayed, conditional), numpy.lib.format (delayed, conditional), scipy._lib.six (conditional)
+missing module named _uuid - imported by uuid (optional)
+missing module named __builtin__ - imported by pkg_resources._vendor.pyparsing (conditional), numpy.core.numerictypes (conditional), numpy.core.numeric (conditional), numpy.lib.function_base (conditional), numpy.lib._iotools (conditional), numpy.ma.core (conditional), scipy._lib.six (conditional), numpy.distutils.misc_util (delayed, conditional), numpy (conditional), setuptools._vendor.pyparsing (conditional)
+missing module named ordereddict - imported by pkg_resources._vendor.pyparsing (optional), setuptools._vendor.pyparsing (optional)
+missing module named 'com.sun' - imported by appdirs (delayed, conditional, optional), pkg_resources._vendor.appdirs (delayed, conditional, optional)
+missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.requirements (top-level), pkg_resources._vendor.packaging.markers (top-level)
+missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named pkg_resources.extern.appdirs - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named 'pkg_resources.extern.six.moves' - imported by pkg_resources (top-level), pkg_resources._vendor.packaging.requirements (top-level)
+missing module named pkg_resources.extern.six - imported by pkg_resources.extern (top-level), pkg_resources (top-level), pkg_resources.py31compat (top-level)
+missing module named Carbon - imported by wx.lib.colourutils (conditional, optional)
+runtime module named urllib3.packages.six.moves - imported by http.client (top-level), urllib3.connectionpool (top-level), urllib3.util.response (top-level), 'urllib3.packages.six.moves.urllib' (top-level), urllib3.response (top-level), urllib3.util.queue (top-level)
+missing module named 'backports.ssl_match_hostname' - imported by setuptools.ssl_support (optional), urllib3.packages.ssl_match_hostname (optional)
+missing module named "'urllib3.packages.six.moves.urllib'.parse" - imported by urllib3.request (top-level), urllib3.poolmanager (top-level)
+missing module named Queue - imported by urllib3.util.queue (conditional)
+missing module named fcntl - imported by dsdev_utils.terminal (delayed, optional), psutil._compat (delayed, optional)
+missing module named UserDict - imported by pyupdater.utils (optional)
+missing module named cStringIO - imported by cPickle (top-level), cffi.ffiplatform (optional), bsdiff4.format (conditional)
+missing module named copy_reg - imported by cPickle (top-level), cStringIO (top-level), numpy.core (conditional)
+missing module named com - imported by appdirs (delayed)
+missing module named posix - imported by os (conditional, optional)
+missing module named resource - imported by posix (top-level)
