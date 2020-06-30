@@ -666,6 +666,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
+  ('os',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\os.py',
+   'PYMODULE'),
   ('win32com',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\win32com\\__init__.py',
@@ -854,13 +858,17 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\py2_warn.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.version',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.packaging',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
   ('pkg_resources._vendor.appdirs',
    'c:\\program files (x86)\\microsoft visual '
@@ -873,6 +881,14 @@
   ('win32com.shell',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\win32comext\\shell\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
   ('pkg_resources._vendor.pyparsing',
    'c:\\program files (x86)\\microsoft visual '
@@ -910,17 +926,17 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\win32\\lib\\netbios.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.utils',
+  ('pkg_resources._vendor.packaging.markers',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
+  ('pkg_resources._vendor.packaging._compat',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
-  ('pkg_resources._vendor',
+  ('pkg_resources._vendor.packaging.specifiers',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
   ('pkg_resources._vendor.six',
    'c:\\program files (x86)\\microsoft visual '
@@ -930,21 +946,9 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
+  ('pkg_resources._vendor.packaging.utils',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._compat',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.specifiers',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
    'PYMODULE'),
   ('sysconfig',
    'c:\\program files (x86)\\microsoft visual '
@@ -958,6 +962,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
    'PYMODULE'),
+  ('stringprep',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\stringprep.py',
+   'PYMODULE'),
   ('typing',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\typing.py',
@@ -966,10 +974,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\_py_abc.py',
    'PYMODULE'),
-  ('stringprep',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\stringprep.py',
-   'PYMODULE'),
   ('tracemalloc',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\tracemalloc.py',
@@ -977,54 +981,14 @@
   ('pyupdatermywx.main',
    'C:\\Users\\asa\\PycharmProjects\\pyupdatermywx\\pyupdatermywx\\main.py',
    'PYMODULE'),
-  ('wx',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\__init__.py',
-   'PYMODULE'),
-  ('wx.core',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\core.py',
-   'PYMODULE'),
-  ('wx.adv',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\adv.py',
-   'PYMODULE'),
-  ('wx.html',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\html.py',
-   'PYMODULE'),
-  ('wx.msw',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\msw.py',
-   'PYMODULE'),
-  ('wx.lib.colourutils',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\lib\\colourutils.py',
-   'PYMODULE'),
-  ('wx.lib',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\lib\\__init__.py',
-   'PYMODULE'),
-  ('six',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\six.py',
-   'PYMODULE'),
-  ('wx.__version__',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\__version__.py',
-   'PYMODULE'),
-  ('pathlib',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\pathlib.py',
+  ('softwareupdate',
+   'C:\\Users\\asa\\PycharmProjects\\pyupdatermywx\\softwareupdate.py',
    'PYMODULE'),
   ('pyupdatermywx.config',
    'C:\\Users\\asa\\PycharmProjects\\pyupdatermywx\\pyupdatermywx\\config.py',
    'PYMODULE'),
   ('client_config',
    'C:\\Users\\asa\\PycharmProjects\\pyupdatermywx\\client_config.py',
-   'PYMODULE'),
-  ('pyupdatermywx',
-   'C:\\Users\\asa\\PycharmProjects\\pyupdatermywx\\pyupdatermywx\\__init__.py',
    'PYMODULE'),
   ('pyupdater.client',
    'c:\\program files (x86)\\microsoft visual '
@@ -1318,6 +1282,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\smtplib.py',
    'PYMODULE'),
+  ('six',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\six.py',
+   'PYMODULE'),
   ('ed25519',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\ed25519\\__init__.py',
@@ -1370,9 +1338,44 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\json\\scanner.py',
    'PYMODULE'),
-  ('os',
+  ('wx',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\os.py',
+   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\__init__.py',
+   'PYMODULE'),
+  ('wx.core',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\core.py',
+   'PYMODULE'),
+  ('wx.adv',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\adv.py',
+   'PYMODULE'),
+  ('wx.html',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\html.py',
+   'PYMODULE'),
+  ('wx.msw',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\msw.py',
+   'PYMODULE'),
+  ('wx.lib.colourutils',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\lib\\colourutils.py',
+   'PYMODULE'),
+  ('wx.lib',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\lib\\__init__.py',
+   'PYMODULE'),
+  ('wx.__version__',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\__version__.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('pyupdatermywx',
+   'C:\\Users\\asa\\PycharmProjects\\pyupdatermywx\\pyupdatermywx\\__init__.py',
    'PYMODULE'),
   ('logging',
    'c:\\program files (x86)\\microsoft visual '
@@ -1382,40 +1385,44 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\argparse.py',
    'PYMODULE')],
- [('api-ms-win-crt-math-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-math-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-heap-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
-   'BINARY'),
-  ('python37.dll',
+ [('python37.dll',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\python37.dll',
    'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
    'BINARY'),
   ('VCRUNTIME140.dll',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\VCRUNTIME140.dll',
    'BINARY'),
-  ('ucrtbase.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\ucrtbase.dll',
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-convert-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-14\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-filesystem-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
@@ -1423,29 +1430,11 @@
   ('api-ms-win-crt-time-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-time-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+  ('ucrtbase.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\ucrtbase.dll',
    'BINARY'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-14\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-14\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-14\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-memory-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l2-1-0.dll',
    'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-file-l2-1-0.dll',
@@ -1454,25 +1443,6 @@
    'C:\\Program '
    'Files\\Java\\jdk-14\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-14\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
   ('api-ms-win-core-timezone-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
@@ -1480,38 +1450,71 @@
    'C:\\Program '
    'Files\\Java\\jdk-14\\bin\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-string-l1-1-0.dll',
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-profile-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-file-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-handle-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-14\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-14\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-console-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-14\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-14\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-processthreads-l1-1-1.dll',
    'C:\\Program '
    'Files\\Java\\jdk-14\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-14\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-14\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-14\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-debug-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-datetime-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-core-util-l1-1-0.dll',
    'BINARY'),
   ('pythoncom37.dll',
    'C:\\Users\\asa\\run\\PyUpdaterWxDemo-win-0.0.1\\PyUpdaterWxDemo\\pythoncom37.dll',
@@ -1591,6 +1594,22 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\win32\\win32wnet.pyd',
    'EXTENSION'),
+  ('_brotli',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\_brotli.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('bsdiff4.core',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\bsdiff4\\core.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32evtlog',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\win32\\win32evtlog.pyd',
+   'EXTENSION'),
+  ('ed25519._ed25519',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\ed25519\\_ed25519.cp37-win_amd64.pyd',
+   'EXTENSION'),
   ('wx._adv',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\wx\\_adv.cp37-win_amd64.pyd',
@@ -1611,32 +1630,16 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\wx\\_core.cp37-win_amd64.pyd',
    'EXTENSION'),
-  ('_brotli',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\_brotli.cp37-win_amd64.pyd',
-   'EXTENSION'),
-  ('bsdiff4.core',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\bsdiff4\\core.cp37-win_amd64.pyd',
-   'EXTENSION'),
-  ('win32evtlog',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\win32\\win32evtlog.pyd',
-   'EXTENSION'),
-  ('ed25519._ed25519',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\ed25519\\_ed25519.cp37-win_amd64.pyd',
-   'EXTENSION'),
   ('api-ms-win-crt-utility-l1-1-0.dll',
    'C:\\Users\\asa\\run\\PyUpdaterWxDemo-win-0.0.1\\PyUpdaterWxDemo\\api-ms-win-crt-utility-l1-1-0.dll',
-   'BINARY'),
-  ('libssl-1_1.dll',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\DLLs\\libssl-1_1.dll',
    'BINARY'),
   ('libcrypto-1_1.dll',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\libssl-1_1.dll',
    'BINARY'),
   ('mfc140u.dll',
    'c:\\program files (x86)\\microsoft visual '
@@ -1654,13 +1657,13 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\wx\\wxmsw314u_html_vc140_x64.dll',
    'BINARY'),
-  ('wxbase314u_net_vc140_x64.dll',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\wxbase314u_net_vc140_x64.dll',
-   'BINARY'),
   ('MSVCP140.dll',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\wx\\MSVCP140.dll',
+   'BINARY'),
+  ('wxbase314u_net_vc140_x64.dll',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\wx\\wxbase314u_net_vc140_x64.dll',
    'BINARY'),
   ('api-ms-win-crt-multibyte-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-14\\bin\\api-ms-win-crt-multibyte-l1-1-0.dll',
@@ -1670,12 +1673,12 @@
  [('base_library.zip',
    'C:\\Users\\asa\\PycharmProjects\\pyupdatermywx\\.pyupdater\\work\\win\\base_library.zip',
    'DATA'),
-  ('certifi\\cacert.pem',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\certifi\\cacert.pem',
-   'DATA'),
   ('Include\\pyconfig.h',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\Include\\pyconfig.h',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\certifi\\cacert.pem',
    'DATA')],
  [])

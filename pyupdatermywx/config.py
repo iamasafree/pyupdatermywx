@@ -38,7 +38,8 @@ if 'WXUPDATEDEMO_TESTING_APP_VERSION' in os.environ:
 if 'WXUPDATEDEMO_TESTING_PUBLIC_KEY' in os.environ:
     CLIENT_CONFIG.PUBLIC_KEY = os.environ['WXUPDATEDEMO_TESTING_PUBLIC_KEY']
 
-def update_PyUpdaterClientConfig(client_config, port):
+
+def update_PyUpdaterClientConfig(port, client_config=None):
     """
     Update PyUpdater client config.
 
