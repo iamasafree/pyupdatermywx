@@ -17,13 +17,14 @@ class PyUpdaterMyWxApp(wx.App):
     in a static text widget on the application's main frame.
     """
 
-    def __init__(self, status):
-        self.status = status
+    def __init__(self, redirect=False, filename=None):
+        # TODO: убрать
+        self.status = "UNKNOWN"
         self.frame = None
         self.panel = None
         self.statusBar = None
         self.sizer = None
-        wx.App.__init__(self, redirect=False)
+        wx.App.__init__(self, redirect, filename)
 
     def OnInit(self):
         """
@@ -38,7 +39,7 @@ class PyUpdaterMyWxApp(wx.App):
         self.panel = wx.Panel(self.frame)
         self.sizer = wx.BoxSizer()
 
-        luafile = pathlib.Path().absolute()/'./pyupdatermywx/lua/script.lua'
+        luafile = pathlib.Path().absolute() / './pyupdatermywx/lua/script.lua'
         data = pathlib.Path(luafile).read_text()
 
         self.sizer.Add(
@@ -67,16 +68,3 @@ class PyUpdaterMyWxApp(wx.App):
         We should not terminate the file server process at this point.
         """
         event.Skip()
-
-    @staticmethod
-    def Run(status, mainLoop=True):
-        """
-        Create the app and run its main loop to process events.
-
-        If being called by automated testing, the main loop
-        won't be run and the app will be returned.
-        """
-        app = PyUpdaterMyWxApp(status)
-        if mainLoop:
-            app.MainLoop()
-        return app

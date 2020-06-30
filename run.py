@@ -22,7 +22,8 @@ STDERR_HANDLER.setFormatter(logging.Formatter(logging.BASIC_FORMAT))
 FILE_SERVER_PORT = 50000
 
 
-# TODO: с этим что-то надо сделать
+# TODO: написать тесты на этот модуль
+# TODO: с этим что-то надо сделать - странная кострукция
 class UpdateStatus(object):
     """Enumerated data type"""
     # pylint: disable=invalid-name
@@ -67,6 +68,7 @@ def display_version_and_exit():
     sys.exit(0)
 
 
+# TODO: не до конца разобрался, как работает логирование во flask
 def initialize_logging(debug=False):
     """
     Initialize logging.
@@ -81,6 +83,9 @@ def initialize_logging(debug=False):
     logging.getLogger("pyupdater").addHandler(STDERR_HANDLER)
 
 
+# TODO: подключить нормальный логгер, найти в примерах на pyupdater, можно подключить несколько логгеров
+#  переменные, которые доступны в этой функции определены в advanced на pyupdater
+#  можно попробовать выводить их в ui форме?
 def print_status_info(info):
     total = info.get(u'total')
     downloaded = info.get(u'downloaded')
@@ -97,20 +102,6 @@ def check_for_updates(debug):
     """
     assert CLIENT_CONFIG.PUBLIC_KEY is not None
     client = Client(CLIENT_CONFIG, refresh=True, progress_hooks=[print_status_info])
-
-    # assets_update = client.update_check("assets", pyupdatermywx.__version__)
-    # print(f"assets_status: {assets_update}")
-    # print(f"assets_status.type: {type(assets_update)}")
-    #
-    # if assets_update:
-    #     assets_update.download()
-    #     if assets_update.is_downloaded():
-    #         assets_status = UpdateStatus.EXTRACTING_UPDATE_AND_RESTARTING
-    #         assets_update.extract()
-    #         # assets_update.update_folder
-    # else:
-    #     assets_status = UpdateStatus.NO_AVAILABLE_UPDATES
-    #
 
     app_update = client.update_check(CLIENT_CONFIG.APP_NAME,
                                      pyupdatermywx.__version__,
@@ -146,22 +137,29 @@ def run(argv, client_config=None):
     args = parse_args(argv)
     if args.version:
         display_version_and_exit()
+
     initialize_logging(args.debug)
     if FILE_SERVER_PORT:
         update_PyUpdaterClientConfig(client_config, FILE_SERVER_PORT)
         status = check_for_updates(args.debug)
     else:
         status = UpdateStatus.COULDNT_CHECK_FOR_UPDATES
+
     if 'WXUPDATEDEMO_TESTING_FROZEN' in os.environ:
         sys.stderr.write("Exiting with status: %s\n"
                          % UPDATE_STATUS_STR[status])
         sys.exit(0)
-    main_loop = (argv[0] != 'RunTester')
-    if not 'WXUPDATEDEMO_TESTING_FROZEN' in os.environ:
-        return PyUpdaterMyWxApp.Run(
-            UPDATE_STATUS_STR[status], main_loop)
-    else:
-        return None
+
+    """
+    Create the app and run its main loop to process events.
+
+    If being called by automated testing, the main loop
+    won't be run and the app will be returned.
+    """
+    app = PyUpdaterMyWxApp()
+    if argv[0] != 'RunTester':
+        app.MainLoop()
+    return app
 
 
 if __name__ == "__main__":

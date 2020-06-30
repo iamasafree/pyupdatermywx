@@ -228,6 +228,36 @@
             "patch_hash": "d8a31dbe0e7950289d3adb6ab1a9e687b531d0f2e94daef975ab80523610f636",
             "patch_size": 163558
           }
+        },
+        "0.0.21.2.0": {
+          "win": {
+            "file_hash": "6b042402c7ca04c8824915d7f111da6df7ac63f20b3064f08680fe9aee7defbf",
+            "file_size": 19006530,
+            "filename": "PyUpdaterMyWx-win-0.0.21.zip",
+            "patch_name": "PyUpdaterMyWx-win-stable-21",
+            "patch_hash": "bf5806fc101bfafa93ee3389065fc9261d8ecbbe319b4159eaec6bc1516d20a1",
+            "patch_size": 230590
+          }
+        },
+        "0.0.22.2.0": {
+          "win": {
+            "file_hash": "720c64c74ef8927346d6d8fb2b228b42a9dbbfae4b3ea5c51514663bcce9f2f7",
+            "file_size": 19006546,
+            "filename": "PyUpdaterMyWx-win-0.0.22.zip",
+            "patch_name": "PyUpdaterMyWx-win-stable-22",
+            "patch_hash": "48d438fd77d289cc868d7925d9c72ff97d4af490742d07f699c2133bbc274ee5",
+            "patch_size": 246075
+          }
+        },
+        "0.0.23.2.0": {
+          "win": {
+            "file_hash": "c80e8ea6f99a598de54144f3e5cec145231e415262506bca09bd06af6b132e80",
+            "file_size": 19006264,
+            "filename": "PyUpdaterMyWx-win-0.0.23.zip",
+            "patch_name": "PyUpdaterMyWx-win-stable-23",
+            "patch_hash": "5467e31831b5ba18a9e116776242f6f2b86bad3dd4015c5bd17f222ee68b689c",
+            "patch_size": 295014
+          }
         }
       },
       "assets": {
@@ -270,7 +300,7 @@
     "latest": {
       "PyUpdaterMyWx": {
         "stable": {
-          "win": "0.0.20.2.0"
+          "win": "0.0.23.2.0"
         }
       },
       "assets": {
@@ -282,7 +312,7 @@
   },
   "py_repo_config": {
     "patches": {
-      "PyUpdaterMyWx": 20,
+      "PyUpdaterMyWx": 23,
       "assets": 3
     },
     "package": {
