@@ -1,0 +1,1 @@
+--my another script in lua

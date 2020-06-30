@@ -3,6 +3,7 @@ A simple wxPython application which displays its version number
 in a static text widget on the application's main frame.
 """
 import os
+import pathlib
 import sys
 
 import wx
@@ -15,6 +16,7 @@ class PyUpdaterMyWxApp(wx.App):
     A simple wxPython application which displays its version number
     in a static text widget on the application's main frame.
     """
+
     def __init__(self, status):
         self.status = status
         self.frame = None
@@ -29,14 +31,21 @@ class PyUpdaterMyWxApp(wx.App):
         """
         self.frame = wx.Frame(None, title="PyUpdater MyWxPython")
         self.frame.Bind(wx.EVT_CLOSE, self.OnCloseFrame)
-        self.frame.SetSize(wx.Size(400, 100))
+        self.frame.SetSize(wx.Size(500, 150))
         self.statusBar = wx.StatusBar(self.frame)
         self.statusBar.SetStatusText(self.status)
         self.frame.SetStatusBar(self.statusBar)
         self.panel = wx.Panel(self.frame)
         self.sizer = wx.BoxSizer()
+
+        luafile = pathlib.Path().absolute()/'./pyupdatermywx/lua/script.lua'
+        data = pathlib.Path(luafile).read_text()
+
         self.sizer.Add(
-            wx.StaticText(self.frame, label="Version %s" % __version__))
+            wx.StaticText(self.frame, label=f"\n\
+                        File: {data}\n\
+                        Version: {__version__}\n")
+        )
         self.panel.SetSizerAndFit(self.sizer)
 
         self.frame.Show()

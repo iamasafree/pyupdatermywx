@@ -34,139 +34,235 @@
       "PyUpdaterMyWx": {
         "0.0.1.2.0": {
           "win": {
-            "file_hash": "8a373ba526928a9f7878d631b348e2c9ab9ca33e30fb427bdcc6d36821146251",
-            "file_size": 20820518,
+            "file_hash": "58582204470e724960bc9039630ae46735c6c0eb8fcd0f73f1b45961a48f837a",
+            "file_size": 18988977,
             "filename": "PyUpdaterMyWx-win-0.0.1.zip"
           }
         },
         "0.0.2.2.0": {
           "win": {
-            "file_hash": "38729fa7fdb41f12aca4c56c9d9b0197e412f27ddf401578676226aae59d753a",
-            "file_size": 20820471,
+            "file_hash": "5c57ea67ca55476194041579224e7c035ff7e2d2c992c6561ab3da17f851e060",
+            "file_size": 18988979,
             "filename": "PyUpdaterMyWx-win-0.0.2.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-2",
-            "patch_hash": "050efcebda4c33e399083a7e13f1d029c9442c31fb04ab9a07fb47dcf88e9e90",
-            "patch_size": 292971
+            "patch_hash": "fc501c22c65125577afb29bbd9d51e1125089dd95c5d00e23f34275e143387f1",
+            "patch_size": 211093
           }
         },
         "0.0.3.2.0": {
           "win": {
-            "file_hash": "703057283132a4158183a40b7bf5bf849988b0bccfb26e3543ae9d0b17fd62db",
-            "file_size": 18988877,
+            "file_hash": "6453682cb776db82aee717d36b784ae0255cee3076ae3068ade1133ed6c63124",
+            "file_size": 18989097,
             "filename": "PyUpdaterMyWx-win-0.0.3.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-3",
-            "patch_hash": "ff24d3539a3f5a1b0ac9fd10c1fa0cfd51fb18b7e2a00c250b6193286117ef9c",
-            "patch_size": 331596
+            "patch_hash": "bbbe5892d93f7556743289d97750aff9e82cebe028d6ce48322bebafd3260bb7",
+            "patch_size": 255313
           }
         },
         "0.0.4.2.0": {
           "win": {
-            "file_hash": "0b928be38bdbd9788c9c0b19a04a129b1f862ffe67823eb5696572240cf3aa5e",
-            "file_size": 18988872,
+            "file_hash": "ead02874307ea358774eecab4dab261204f672877f4ef0bc63fa66711ddf8039",
+            "file_size": 18989136,
             "filename": "PyUpdaterMyWx-win-0.0.4.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-4",
-            "patch_hash": "0dae93858f5ca16b92a442df43673ddfcdf34fd659487d8a355533ffdb9bbc9c",
-            "patch_size": 161768
+            "patch_hash": "d6be5ecf2f86d457382b7e883bf978e8dc6f2d843b1ff17e50e39e7a7a9c10c8",
+            "patch_size": 249522
           }
         },
         "0.0.5.2.0": {
           "win": {
-            "file_hash": "0df11090625cb7fc536ab41834241edcd4ba0d4234a3f879ecead1e8b6ebb694",
-            "file_size": 18988879,
+            "file_hash": "a4c6ef13cc3d7490e3db0e31167bc68f159834d16c38ff2716397e6850dcbf74",
+            "file_size": 18989115,
             "filename": "PyUpdaterMyWx-win-0.0.5.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-5",
-            "patch_hash": "f3c82ec77a386ba2c1b990cfa342c98cf46ea13111ae74642c898f323b989552",
-            "patch_size": 161833
+            "patch_hash": "99c241a1b9ddf65670e3e00528499bfd403516b125077225e919e1e0b3d2c691",
+            "patch_size": 200185
           }
         },
         "0.0.6.2.0": {
           "win": {
-            "file_hash": "248d5cd57d33035e910eef3481a4ae5a11147319b6e883630f46a94fb2fb4471",
-            "file_size": 18988973,
+            "file_hash": "b0eac7420826d6ee34c53492674c4e5f67402368d13c2aded20f35a6cf3924c2",
+            "file_size": 18989535,
             "filename": "PyUpdaterMyWx-win-0.0.6.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-6",
-            "patch_hash": "cb26435dc7eb22ca824c33e139b639a5a92bf522099c262694c7f9c5368ef11d",
-            "patch_size": 315058
+            "patch_hash": "1217a5f3da53e6c2fa9631b7195ffb7cdc03bb0e7a8c50f3438e3018d93f788e",
+            "patch_size": 298784
           }
         },
         "0.0.7.2.0": {
           "win": {
-            "file_hash": "090b0fc868a885fcf7bbecce3c353f9bcc6b1d8a66d7093a3a2f094faf4c0753",
-            "file_size": 18988978,
+            "file_hash": "3f455886710ee1650dbc315e0cadf2b70e5406e6d6377a19aa2f697bdb9cce80",
+            "file_size": 18989541,
             "filename": "PyUpdaterMyWx-win-0.0.7.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-7",
-            "patch_hash": "cdb07bdd65a95c3c882613ac3f0681f59c80a22c606aa689e0d6f85f00a3b0d0",
-            "patch_size": 116714
+            "patch_hash": "5eff8518a7b12c17ba9985dd16a88b6fb2d85c882c1a9148338710e57efda8ad",
+            "patch_size": 187537
           }
         },
         "0.0.8.2.0": {
           "win": {
-            "file_hash": "82ae350be429952a7c0f2d3fd8220a3cac4d2f23aab0c14fdf03fa70e80d155b",
-            "file_size": 18988942,
+            "file_hash": "f7ff472ac1a3b105d60217e5469f93fbd9219560aa85d21a65f5b328b2240e19",
+            "file_size": 18989110,
             "filename": "PyUpdaterMyWx-win-0.0.8.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-8",
-            "patch_hash": "d6448555ec0653f695189cec220251ecbc68cb9da2d1b0bd29b65ad11e8ecb32",
-            "patch_size": 208005
+            "patch_hash": "6d1283d42289c05ec53c88bb923d59fdb94c1f8f47ee29374a9c8833a909fe5f",
+            "patch_size": 295586
           }
         },
         "0.0.9.2.0": {
           "win": {
-            "file_hash": "1ca384176df34c1ef197ecddf2d093b89ed44f057ce5e26eb11f6053ed9237e5",
-            "file_size": 18988871,
+            "file_hash": "9de26887ee831f84d235d14ba9e58163aae74cd73d8c3c0a24c69370ad524b8c",
+            "file_size": 18989118,
             "filename": "PyUpdaterMyWx-win-0.0.9.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-9",
-            "patch_hash": "4f6bbd78b4dc1a0a7cc3cabe803b9ecd884b6285e7f760fc6f1417558509c4d1",
-            "patch_size": 299857
+            "patch_hash": "328b63ece9ab66f8ed608dd4f090b7d8860488f295290a2b05c270f5beb9a8d4",
+            "patch_size": 221704
           }
         },
         "0.0.10.2.0": {
           "win": {
-            "file_hash": "0354a400cf5b648fd7272dc0560a84b10173bd3b94b22c8d12bd1af82d311f62",
-            "file_size": 18988876,
+            "file_hash": "cbc0913aef39503e601af7da931af69ee872d94c33b5733944fea192634cc21f",
+            "file_size": 18989116,
             "filename": "PyUpdaterMyWx-win-0.0.10.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-10",
-            "patch_hash": "0da71eeaf921228088389c73381d7fc7dd81c0168872331d3b39ca549bf6fe42",
-            "patch_size": 148744
+            "patch_hash": "3e1821e837116ff64e7339e14a22b5dca5db6b11be8ba672c148c84c8e8953b2",
+            "patch_size": 186430
           }
         },
         "0.0.11.2.0": {
           "win": {
-            "file_hash": "1967e6738e335239a5958bc6b0aabb499683df2d940ab0a8bceb4b353918e764",
-            "file_size": 18988873,
+            "file_hash": "ab23cbe93f90c64361082fcac1a366d1b221edff57c77acaa75d7fa20bb6cbc7",
+            "file_size": 18989583,
             "filename": "PyUpdaterMyWx-win-0.0.11.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-11",
-            "patch_hash": "7c16e53398ef27f7c95b77f5cd318501807333f242ccc79c2a08bbd0a8f777af",
-            "patch_size": 161005
+            "patch_hash": "43e277c6ad387159d9488844bef4462e9f616d937bbac366e50dfb274ea4a677",
+            "patch_size": 300972
           }
         },
         "0.0.12.2.0": {
           "win": {
-            "file_hash": "f5c99f76aa06a009fbd570a3c7f6b64ba2c3d27d07fdfa3ba3c36b9b4f8aa157",
-            "file_size": 18988970,
+            "file_hash": "8721a9d4dc0093dd5f963caa90e1184e2d2b9ea780178552ea5e954766f86cea",
+            "file_size": 19006161,
             "filename": "PyUpdaterMyWx-win-0.0.12.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-12",
-            "patch_hash": "8ecb81fc262f32590a2917ce99666305fd964728d5860d2dfb9e34b89b351066",
-            "patch_size": 300488
+            "patch_hash": "a49f9de6fd81dffcbf94fc0f01a8f6be39444be0afd50ab0978f4b7365ad1c1a",
+            "patch_size": 210983
           }
         },
         "0.0.13.2.0": {
           "win": {
-            "file_hash": "5f6e531bff9da474e60dee89e39b6dd1fe4452f84ef653c1661d85eb658ecd87",
-            "file_size": 18988991,
+            "file_hash": "901d01721ad68c3cd49134165c79f6774acc028c18947a5cfc2003249ed170e0",
+            "file_size": 19006202,
             "filename": "PyUpdaterMyWx-win-0.0.13.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-13",
-            "patch_hash": "1998aab8baaa42cdf97f00089b364cb78df0f3a4dbb48bde651b9d42f174140b",
-            "patch_size": 184100
+            "patch_hash": "f338c86301245c2ed21c82c1bb64c1dcc291bcf493255ae7923e15850bd4dffd",
+            "patch_size": 119588
           }
         },
         "0.0.14.2.0": {
           "win": {
-            "file_hash": "1ca26358836dce4895cb0926a371dad567d59c043937dcd4aa340b450fa375f1",
-            "file_size": 18988978,
+            "file_hash": "5108bf95642276f825c070d456bc4f6a6cbd1ba32dafaacddf2c9035383b2d22",
+            "file_size": 19006194,
             "filename": "PyUpdaterMyWx-win-0.0.14.zip",
             "patch_name": "PyUpdaterMyWx-win-stable-14",
-            "patch_hash": "444c0fa115add7e52c33d490474ae7a9c8be80dd6659378cca369c3b185b2287",
-            "patch_size": 166575
+            "patch_hash": "a110a7a51955baed349d7fad58ade42f65aaea3f5fec4f7b33046f43066d649e",
+            "patch_size": 196777
+          }
+        },
+        "0.0.15.2.0": {
+          "win": {
+            "file_hash": "21438aac8ab6ac653fd4424d46cfe97510430d2449d3608228bef59cecd20e46",
+            "file_size": 19006195,
+            "filename": "PyUpdaterMyWx-win-0.0.15.zip",
+            "patch_name": "PyUpdaterMyWx-win-stable-15",
+            "patch_hash": "97bb3a0321d079894732c929162043a1483567aca07ab9da2e33897fdedef528",
+            "patch_size": 114622
+          }
+        },
+        "0.0.16.2.0": {
+          "win": {
+            "file_hash": "366778a1f59b7143562d2f245c428f9f8b686961cde36acfadce344b9107a08a",
+            "file_size": 19006314,
+            "filename": "PyUpdaterMyWx-win-0.0.16.zip",
+            "patch_name": "PyUpdaterMyWx-win-stable-16",
+            "patch_hash": "54bf17e7624c182a4e7e1eba2623902ed21b18e406d5013ac312fdba9fb7acb0",
+            "patch_size": 243365
+          }
+        },
+        "0.0.17.2.0": {
+          "win": {
+            "file_hash": "c4b299bee10c19fe9d5e930674c993bd70313185b0cec29285b87d424d6d993f",
+            "file_size": 19006311,
+            "filename": "PyUpdaterMyWx-win-0.0.17.zip",
+            "patch_name": "PyUpdaterMyWx-win-stable-17",
+            "patch_hash": "06e977f588e699c8262573e5f3e172f61866527e2bbf65647f80d1a642d3ad8c",
+            "patch_size": 232440
+          }
+        },
+        "0.0.18.2.0": {
+          "win": {
+            "file_hash": "8bf6a66bb4766804d0fd75db0d311ef6259b508208c347ed1d25ac193daadb32",
+            "file_size": 19006303,
+            "filename": "PyUpdaterMyWx-win-0.0.18.zip",
+            "patch_name": "PyUpdaterMyWx-win-stable-18",
+            "patch_hash": "0a86de753d80f6339a99ac0a67629cc0510fd79a5afd87071d5b2e9832a2c853",
+            "patch_size": 153236
+          }
+        },
+        "0.0.19.2.0": {
+          "win": {
+            "file_hash": "03999be98a1868ca56a9cd879d35e63bad8cbbfa8569357ec3683048320e04a1",
+            "file_size": 19006304,
+            "filename": "PyUpdaterMyWx-win-0.0.19.zip",
+            "patch_name": "PyUpdaterMyWx-win-stable-19",
+            "patch_hash": "2ad59c0fd95d7b181888514f728ec47bc684ecec2b25e465c7478db3120fe935",
+            "patch_size": 137944
+          }
+        },
+        "0.0.20.2.0": {
+          "win": {
+            "file_hash": "83158805920f6056592e9029542c474e15a9212b5334df2c58e931e6a3b52f7c",
+            "file_size": 19006552,
+            "filename": "PyUpdaterMyWx-win-0.0.20.zip",
+            "patch_name": "PyUpdaterMyWx-win-stable-20",
+            "patch_hash": "d8a31dbe0e7950289d3adb6ab1a9e687b531d0f2e94daef975ab80523610f636",
+            "patch_size": 163558
+          }
+        }
+      },
+      "assets": {
+        "0.0.1.2.0": {
+          "win": {
+            "file_hash": "45cf6f2c779be3e6cf1643e4c8e4c41f9e81bf76f4d28e3062de8193e1ceab41",
+            "file_size": 118,
+            "filename": "assets-win-0.0.1.zip"
+          }
+        },
+        "0.0.3.2.0": {
+          "win": {
+            "file_hash": "45cf6f2c779be3e6cf1643e4c8e4c41f9e81bf76f4d28e3062de8193e1ceab41",
+            "file_size": 118,
+            "filename": "assets-win-0.0.3.zip"
+          }
+        },
+        "0.0.4.2.0": {
+          "win": {
+            "file_hash": "72f7368182f667c1848491b24139a915dd7ca25584717186947929f0908d667c",
+            "file_size": 128,
+            "filename": "assets-win-0.0.4.zip",
+            "patch_name": "assets-win-stable-2",
+            "patch_hash": "8fbf4327df232a1d3cb205945dfff55addaa2ecbf58ba916a6e68657f801be81",
+            "patch_size": 164
+          }
+        },
+        "0.0.5.2.0": {
+          "win": {
+            "file_hash": "72f7368182f667c1848491b24139a915dd7ca25584717186947929f0908d667c",
+            "file_size": 128,
+            "filename": "assets-win-0.0.5.zip",
+            "patch_name": "assets-win-stable-3",
+            "patch_hash": "e6be1c39521f37df12d37cc9fa99a0b51fbf9f51bbb28779a1acd421df441082",
+            "patch_size": 128
           }
         }
       }
@@ -174,18 +270,27 @@
     "latest": {
       "PyUpdaterMyWx": {
         "stable": {
-          "win": "0.0.14.2.0"
+          "win": "0.0.20.2.0"
+        }
+      },
+      "assets": {
+        "stable": {
+          "win": "0.0.5.2.0"
         }
       }
     }
   },
   "py_repo_config": {
     "patches": {
-      "PyUpdaterMyWx": 14
+      "PyUpdaterMyWx": 20,
+      "assets": 3
     },
     "package": {
       "PyUpdaterMyWx": {
         "win": "0.0.9.2.0"
+      },
+      "assets": {
+        "win": "0.0.5.2.0"
       }
     }
   }

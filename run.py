@@ -97,6 +97,21 @@ def check_for_updates(debug):
     """
     assert CLIENT_CONFIG.PUBLIC_KEY is not None
     client = Client(CLIENT_CONFIG, refresh=True, progress_hooks=[print_status_info])
+
+    # assets_update = client.update_check("assets", pyupdatermywx.__version__)
+    # print(f"assets_status: {assets_update}")
+    # print(f"assets_status.type: {type(assets_update)}")
+    #
+    # if assets_update:
+    #     assets_update.download()
+    #     if assets_update.is_downloaded():
+    #         assets_status = UpdateStatus.EXTRACTING_UPDATE_AND_RESTARTING
+    #         assets_update.extract()
+    #         # assets_update.update_folder
+    # else:
+    #     assets_status = UpdateStatus.NO_AVAILABLE_UPDATES
+    #
+
     app_update = client.update_check(CLIENT_CONFIG.APP_NAME,
                                      pyupdatermywx.__version__,
                                      channel='stable')
@@ -120,6 +135,7 @@ def check_for_updates(debug):
             status = UpdateStatus.UPDATE_AVAILABLE_BUT_APP_NOT_FROZEN
     else:
         status = UpdateStatus.NO_AVAILABLE_UPDATES
+
     return status
 
 
