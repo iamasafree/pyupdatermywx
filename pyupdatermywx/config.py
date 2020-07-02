@@ -59,5 +59,5 @@ def update_PyUpdaterClientConfig(port, client_config=None):
         CLIENT_CONFIG.COMPANY_NAME = client_config.COMPANY_NAME
         CLIENT_CONFIG.MAX_DOWNLOAD_RETRIES = client_config.MAX_DOWNLOAD_RETRIES
         CLIENT_CONFIG.PUBLIC_KEY = client_config.PUBLIC_KEY
-    update_url = 'http://localhost:%s' % port
+    update_url = 'http://127.0.0.1:%s/flask' % port
     CLIENT_CONFIG.UPDATE_URLS = [update_url]

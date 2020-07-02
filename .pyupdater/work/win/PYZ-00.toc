@@ -827,38 +827,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\py2_warn.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.appdirs',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
-   'PYMODULE'),
-  ('win32com.shell.shellcon',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\win32comext\\shell\\shellcon.py',
-   'PYMODULE'),
-  ('win32com.shell',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\win32comext\\shell\\__init__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.version',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.pyparsing',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
@@ -899,6 +867,18 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
    'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('win32com.shell.shellcon',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\win32comext\\shell\\shellcon.py',
+   'PYMODULE'),
+  ('win32com.shell',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\win32comext\\shell\\__init__.py',
+   'PYMODULE'),
   ('pkg_resources._vendor.packaging._compat',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
@@ -915,9 +895,29 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
   ('pkg_resources._vendor.packaging.utils',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
   ('sysconfig',
    'c:\\program files (x86)\\microsoft visual '
