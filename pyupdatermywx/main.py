@@ -2,10 +2,7 @@
 A simple wxPython application which displays its version number
 in a static text widget on the application's main frame.
 """
-import os
 import pathlib
-import sys
-
 import wx
 
 from pyupdatermywx import __version__

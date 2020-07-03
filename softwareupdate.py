@@ -10,10 +10,8 @@ from pyupdater.client import Client
 import pyupdatermywx
 from pyupdatermywx.config import update_PyUpdaterClientConfig, CLIENT_CONFIG
 
-# TODO: не понял, как это работает
-logger = logging.getLogger(__name__)
-STDERR_HANDLER = logging.StreamHandler(sys.stderr)
-STDERR_HANDLER.setFormatter(logging.Formatter(logging.BASIC_FORMAT))
+stderrHandler = logging.StreamHandler(sys.stderr)
+stderrHandler.setFormatter(logging.Formatter(logging.BASIC_FORMAT))
 
 
 # TODO: подключить нормальный логгер, найти в примерах на pyupdater, можно подключить несколько логгеров
@@ -36,14 +34,14 @@ class SoftwareUpdate():
         """
         Initialize logging.
         """
-        logger.addHandler(STDERR_HANDLER)
+        logger = logging.getLogger(__name__)
+        logger.addHandler(stderrHandler)
         if debug or 'WXUPDATEDEMO_TESTING' in os.environ:
             self.level = logging.DEBUG
         else:
             self.level = logging.INFO
         logger.setLevel(self.level)
-        logging.getLogger("pyupdater").setLevel(self.level)
-        logging.getLogger("pyupdater").addHandler(STDERR_HANDLER)
+        logger.setLevel(self.level)
 
     def check_for_updates(self, debug=False):
         """

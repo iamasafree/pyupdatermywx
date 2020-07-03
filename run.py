@@ -10,11 +10,14 @@ import sys
 import pyupdatermywx
 from pyupdatermywx.main import PyUpdaterMyWxApp
 
-FILE_SERVER_PORT = 50000
+stderrHandler = logging.StreamHandler(sys.stderr)
+stderrHandler.setFormatter(logging.Formatter(logging.BASIC_FORMAT))
 
 logger = logging.getLogger(__name__)
-STDERR_HANDLER = logging.StreamHandler(sys.stderr)
-STDERR_HANDLER.setFormatter(logging.Formatter(logging.BASIC_FORMAT))
+logger.addHandler(stderrHandler)
+
+FILE_SERVER_PORT = 50000
+
 
 def parse_args(argv):
     """
