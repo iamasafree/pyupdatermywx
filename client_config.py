@@ -4,4 +4,4 @@ class ClientConfig(object):
     COMPANY_NAME = 'asa'
     HTTP_TIMEOUT = 30
     MAX_DOWNLOAD_RETRIES = 3
-    UPDATE_URLS = ['http://127.0.0.1']
+    UPDATE_URLS = ['http://fileserver-staging.asa.ubuntu']

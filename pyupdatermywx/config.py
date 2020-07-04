@@ -39,7 +39,7 @@ if 'WXUPDATEDEMO_TESTING_PUBLIC_KEY' in os.environ:
     CLIENT_CONFIG.PUBLIC_KEY = os.environ['WXUPDATEDEMO_TESTING_PUBLIC_KEY']
 
 
-def update_PyUpdaterClientConfig(port, client_config=None):
+def update_PyUpdaterClientConfig(host, port, client_config=None):
     """
     Update PyUpdater client config.
 
@@ -59,5 +59,5 @@ def update_PyUpdaterClientConfig(port, client_config=None):
         CLIENT_CONFIG.COMPANY_NAME = client_config.COMPANY_NAME
         CLIENT_CONFIG.MAX_DOWNLOAD_RETRIES = client_config.MAX_DOWNLOAD_RETRIES
         CLIENT_CONFIG.PUBLIC_KEY = client_config.PUBLIC_KEY
-    update_url = 'http://127.0.0.1:%s/flask' % port
+    update_url = f'http://{host}:{port}/flask'
     CLIENT_CONFIG.UPDATE_URLS = [update_url]

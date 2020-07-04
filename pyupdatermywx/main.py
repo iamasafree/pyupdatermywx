@@ -15,13 +15,13 @@ class PyUpdaterMyWxApp(wx.App, SoftwareUpdate):
     in a static text widget on the application's main frame.
     """
 
-    def __init__(self, file_server_port, redirect=False, filename=None, debug=False):
-        SoftwareUpdate.__init__(self, file_server_port=file_server_port, debug=debug)
+    def __init__(self, file_server_host, file_server_port, redirect=False, filename=None):
+        SoftwareUpdate.__init__(self, file_server_host, file_server_port)
         wx.App.__init__(self, redirect, filename)
 
         self.SetAppDisplayName("PyUpdater&MyWxPython")
 
-        self.check_for_updates(debug)
+        self.check_for_updates()
 
         self.frame = wx.Frame(None, title="PyUpdater&MyWxPython")
         self.frame.Bind(wx.EVT_CLOSE, self.OnCloseFrame)

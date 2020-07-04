@@ -2,16 +2,12 @@
 software updater with pyupdater client
 """
 import logging
-import os
 import sys
 
 from pyupdater.client import Client
 
 import pyupdatermywx
 from pyupdatermywx.config import update_PyUpdaterClientConfig, CLIENT_CONFIG
-
-stderrHandler = logging.StreamHandler(sys.stderr)
-stderrHandler.setFormatter(logging.Formatter(logging.BASIC_FORMAT))
 
 
 # TODO: подключить нормальный логгер, найти в примерах на pyupdater, можно подключить несколько логгеров
@@ -25,25 +21,10 @@ def print_status_info(info):
 
 
 class SoftwareUpdate():
-    def __init__(self, file_server_port, debug=False):
-        self._initialize_logging(debug)
-        update_PyUpdaterClientConfig(file_server_port)
+    def __init__(self, file_server_host, file_server_port):
+        update_PyUpdaterClientConfig(file_server_host, file_server_port)
 
-    # TODO: не до конца разобрался, как работает логирование во flask
-    def _initialize_logging(self, debug=False):
-        """
-        Initialize logging.
-        """
-        logger = logging.getLogger(__name__)
-        logger.addHandler(stderrHandler)
-        if debug or 'WXUPDATEDEMO_TESTING' in os.environ:
-            self.level = logging.DEBUG
-        else:
-            self.level = logging.INFO
-        logger.setLevel(self.level)
-        logger.setLevel(self.level)
-
-    def check_for_updates(self, debug=False):
+    def check_for_updates(self):
         """
         Check for updates.
 
