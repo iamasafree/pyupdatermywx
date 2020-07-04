@@ -1,26 +1,36 @@
 # Шаги по созданию самоустанавливающегося модуля
 
-<code><br>
-$ pip uninstall pyinstaller<br>
-$ pip uninstall pyupdater<br>
-$ pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip <br>
-$ pip install pyupdater<br>
---$ pip install --upgrade git+https://github.com/Digital-Sapphire/PyUpdater.git@master <br>
-$ pyupdater clean
+Устанавливаем pyinstaller/updater
 
-$ pyupdater init<br>
-$ cd ..<br>
-$ pyupdater keys -c<br>
-$ cd pyupdater-wx-demo-master<br>
-$ mv ../keypack.pyu .<br>
-$ pyupdater keys --import<br>
-$ mv keypack.pyu ..<br>
-$ pyupdater build --console --hidden-import=SocketServer --app-version 0.0.1 run.py<br>
-$ pyupdater build --console --app-version 0.0.1 run.py<br>
-$ pyupdater build --console --app-version 0.0.20 --add-data "../../pyupdatermywx/lua;pyupdatermywx/lua" run.py<br>
-$ pyupdater pkg --process --sign<br>
-$ pyupdater build --console --hidden-import=SocketServer --app-version 0.0.2 run.py<br>
-$ pyupdater pkg --process --sign<br>
+    $ pip uninstall pyinstaller
+    $ pip uninstall pyupdater
+    $ pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip 
+    $ pip install pyupdater
+    $ #pip install --upgrade git+https://github.com/Digital-Sapphire/PyUpdater.git@master 
 
-$ pyupdater archive --name assets --version 0.0.1 --keep assets.txt<br>
-</code>
+Готовим репозиторий
+    
+    $ pyupdater clean
+    $ pyupdater init
+
+Генерируем ключ
+
+    $ cd ..
+    $ pyupdater keys -c
+    $ cd myfolder    
+    $ cp ../keypack.pyu .
+    $ pyupdater keys --import
+    $ rm keypack.pyu
+
+Собираем версию/патч
+
+    $ pyupdater build --console --app-version 0.0.1 run.py
+    
+... или так, если есть файлы ресурсов
+    
+    $ pyupdater build --console --app-version 0.0.20 --add-data "../../pyupdatermywx/lua;pyupdatermywx/lua" run.py
+
+Подписываем
+
+    $ pyupdater pkg --process --sign
+
