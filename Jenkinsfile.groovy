@@ -17,7 +17,14 @@ pipeline {
         '''
       }
     }
-  }
+      stage('Build') {
+          steps {
+            sh '''
+                pyupdater build --console --app-version `echo "0.0.1"` run.py
+            '''
+          }
+        }
+    }
 
   post {
     success {
