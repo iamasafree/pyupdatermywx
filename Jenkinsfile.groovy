@@ -19,12 +19,15 @@ pipeline {
     }
       stage('Build') {
           steps {
-            sh '''
-                pyupdater build --console --app-version `./sh/getversion.sh` --add-data "../../pyupdatermywx/lua;pyupdatermywx/lua" run.py
-                pyupdater pkg --process --sign
-            '''
+            sh './sh/build.sh'
           }
         }
+        stage('Deploy') {
+          steps {
+            sh './sh/deploy.sh'
+          }
+        }
+
     }
 
   post {
