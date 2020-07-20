@@ -12,15 +12,15 @@ pipeline {
         sh '''
           git log HEAD^..HEAD --pretty="%h %an - %s"
           pwd
-          # chmod 755 ./sh/*.sh
-          # ls -l ./sh/*
+          chmod 755 ./sh/*.sh
+          ls -l ./sh/*
         '''
       }
     }
       stage('Build') {
           steps {
             sh '''
-                pyupdater build --console --app-version `echo "0.0.1"` run.py
+                pyupdater build --console --app-version `./sh/getversion.sh` --add-data "../../pyupdatermywx/lua;pyupdatermywx/lua" run.py
             '''
           }
         }
