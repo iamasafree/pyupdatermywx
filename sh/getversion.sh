@@ -1,1 +1,1 @@
-grep "__version__" ../pyupdatermywx/pyupdatermywx/__init__.py | sed 's/[^"]*"\([^"]*\).*/\1/'
+grep "__version__" ../pyupdatermywx/__init__.py | sed 's/[^"]*"\([^"]*\).*/\1/'
