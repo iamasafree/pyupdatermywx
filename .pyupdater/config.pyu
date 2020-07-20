@@ -418,6 +418,16 @@
             "patch_hash": "f22305e375ed23b4af0a6b5945133aaafb36d081819a43d6e7e67dab87a19e04",
             "patch_size": 182850
           }
+        },
+        "0.0.40.2.0": {
+          "win": {
+            "file_hash": "b34b1dc5adca057615cec0000e211e9096a9ff43f3f5efa367bfc6527d55ee44",
+            "file_size": 19005949,
+            "filename": "PyUpdaterMyWx-win-0.0.40.zip",
+            "patch_name": "PyUpdaterMyWx-win-stable-50",
+            "patch_hash": "9486acc020a2537868bcd48cdba0b1cab87e9c139ec4bd06b5918a24cdcd7784",
+            "patch_size": 202281
+          }
         }
       },
       "assets": {
@@ -460,7 +470,7 @@
     "latest": {
       "PyUpdaterMyWx": {
         "stable": {
-          "win": "0.0.39.2.0"
+          "win": "0.0.40.2.0"
         }
       },
       "assets": {
@@ -472,7 +482,7 @@
   },
   "py_repo_config": {
     "patches": {
-      "PyUpdaterMyWx": 49,
+      "PyUpdaterMyWx": 50,
       "assets": 3
     },
     "package": {
