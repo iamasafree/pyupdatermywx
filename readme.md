@@ -34,3 +34,6 @@
 
     $ pyupdater pkg --process --sign
 
+# Демо доступ к QUIK
+
+    <https://arqatech.com/ru/support/demo/>
