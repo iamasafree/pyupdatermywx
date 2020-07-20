@@ -12,8 +12,8 @@ pipeline {
         sh '''
           git log HEAD^..HEAD --pretty="%h %an - %s"
           pwd
-          chmod 755 ./sh/*.sh
-          ls -l ./sh/*
+          # chmod 755 ./sh/*.sh
+          # ls -l ./sh/*
         '''
       }
     }
