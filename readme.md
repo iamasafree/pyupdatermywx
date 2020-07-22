@@ -36,4 +36,4 @@
 
 # Демо доступ к QUIK
 
-    <https://arqatech.com/ru/support/demo/>
+Получаем тут <https://arqatech.com/ru/support/demo/>
